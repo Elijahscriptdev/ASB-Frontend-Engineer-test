@@ -1,0 +1,53 @@
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  font-family: Google, "Sans";
+}
+
+.nav-logo {
+  width: 16%;
+}
+
+.nav-logo ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-logo ul li {
+  margin: 0 3px;
+  padding: 8px;
+  list-style-type: none;
+}
+
+.nav-logo .logo-text {
+  margin-left: -15px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.nav-links {
+  width: 84%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-links-container ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.nav-links-container ul li {
+  margin: 0 3px;
+  padding: 8px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #778699;
+}
