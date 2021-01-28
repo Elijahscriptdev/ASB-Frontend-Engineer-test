@@ -1,4 +1,7 @@
 import React from "react";
+import { BsPerson } from "react-icons/bs";
+import { HiSearch } from "react-icons/hi";
+import { RiArrowDropDownLine } from 'react-icons/ri'
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -44,6 +47,7 @@ const Navbar = () => {
         <div className='nav-links-container'>
           <ul>
             <li>
+              <HiSearch />
               <input type='text' />
             </li>
             <li>
@@ -53,10 +57,12 @@ const Navbar = () => {
               />
             </li>
             <li>
-              <img
+              {/* <img
                 src='https://res.cloudinary.com/elijjaaahhhh/image/upload/v1611867661/Shape_yezqow.png'
                 alt='Account'
-              />
+              /> */}
+              <BsPerson />
+              <RiArrowDropDownLine />
             </li>
           </ul>
         </div>
