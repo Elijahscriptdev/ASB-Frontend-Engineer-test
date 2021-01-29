@@ -13,10 +13,18 @@
 .first-section-container .links {
   align-self: center;
   margin: 20px 25px;
+  position: relative;
 }
 
-.first-section-container span {
+.first-section-container .links .side-arrow {
   color: #0a5685;
+  position: absolute;
+  top: 3px;
+  left: 43px;
+}
+
+.first-section-container .links span {
+  margin-left: 12px;
 }
 
 .card-container {
@@ -42,7 +50,7 @@
 }
 
 .card-content h6 {
-  font-family: Google Sans;
+  font-family: Google "Sans";
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -54,7 +62,7 @@
 }
 
 .card-content p {
-  font-family: Google Sans;
+  font-family: Google "Sans";
   font-style: normal;
   font-weight: bolder;
   font-size: 16px;

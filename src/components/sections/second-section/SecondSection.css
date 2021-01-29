@@ -55,6 +55,14 @@
   color: #0f1a4f;
   margin-left: 10px;
 }
+.link-text h6 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  text-decoration-line: underline;
+  color: #5771ee;
+}
 
 .second-section-container .other-info {
   max-width: 100%;

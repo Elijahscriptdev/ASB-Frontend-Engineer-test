@@ -39,7 +39,7 @@ const SecondSection = () => {
             />
             <h6>Mojidi, Lagos</h6>
           </div>
-          <div className='header'>
+          <div className='header link-text'>
             <img
               src='https://res.cloudinary.com/elijjaaahhhh/image/upload/v1611924304/notes-book_1_rr6gjx.png'
               alt='img'

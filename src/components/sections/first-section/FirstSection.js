@@ -8,10 +8,10 @@ const FirstSection = () => {
     <div className='first-section-container'>
       <p className='links'>
         Divisions{" "}
-        <span>
+        <span className="side-arrow">
           <IoIosArrowForward />
-        </span>{" "}
-        Module
+        </span>
+        <span>Module</span>
       </p>
       <div className='card-container'>
         <div className='card'>
@@ -25,39 +25,39 @@ const FirstSection = () => {
         </div>
         <div className='card'>
           <div className='card-content'>
-            <h6>31454</h6>
+            <h6>2344</h6>
             <div className='question'>
               <AiOutlineExclamationCircle />
             </div>
           </div>
-          <p>Ongoing metric</p>
+          <p>Past metric</p>
         </div>
         <div className='card'>
           <div className='card-content'>
-            <h6>31454</h6>
+            <h6>14224</h6>
             <div className='question'>
               <AiOutlineExclamationCircle />
             </div>
           </div>
-          <p>Ongoing metric</p>
+          <p>Missed metric</p>
         </div>
         <div className='card'>
           <div className='card-content'>
-            <h6>31454</h6>
+            <h6>635</h6>
             <div className='question'>
               <AiOutlineExclamationCircle />
             </div>
           </div>
-          <p>Ongoing metric</p>
+          <p>Failed metric</p>
         </div>
         <div className='card'>
           <div className='card-content'>
-            <h6>31454</h6>
+            <h6>11334</h6>
             <div className='question'>
               <AiOutlineExclamationCircle />
             </div>
           </div>
-          <p>Ongoing metric</p>
+          <p>Pending metric</p>
         </div>
       </div>
     </div>
