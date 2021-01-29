@@ -1,0 +1,14 @@
+.second-section-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.second-section-container .summary {
+  max-width: 258px;
+  height: 235px;
+  left: 20px;
+  top: 259px;
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(192, 192, 192, 0.25);
+  border-radius: 6px;
+}
