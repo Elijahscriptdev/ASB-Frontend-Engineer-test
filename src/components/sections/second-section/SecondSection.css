@@ -221,3 +221,11 @@ th {
   align-items: center;
   color: #b63a3a;
 }
+
+.color {
+  color: #105dcf !important;
+}
+
+.two p span {
+  font-size: 15px;
+}

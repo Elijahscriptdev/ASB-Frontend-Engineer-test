@@ -114,7 +114,7 @@ const SecondSection = () => {
               <td>
                 <input type='checkbox' />
               </td>
-              <td>
+              <td className='color'>
                 <IoIosArrowDropdown />
               </td>
               <td className='one'>Courtney Henry</td>
@@ -145,7 +145,7 @@ const SecondSection = () => {
               <td>
                 <input type='checkbox' />
               </td>
-              <td>
+              <td className='color'>
                 <IoIosArrowDropdown />
               </td>
               <td className='one'>Darrell Steward</td>
@@ -176,7 +176,7 @@ const SecondSection = () => {
               <td>
                 <input type='checkbox' />
               </td>
-              <td>
+              <td className='color'>
                 <IoIosArrowDropdown />
               </td>
               <td className='one'>Cody Fisher</td>
@@ -207,7 +207,7 @@ const SecondSection = () => {
               <td>
                 <input type='checkbox' />
               </td>
-              <td>
+              <td className='color'>
                 <IoIosArrowDropdown />
               </td>
               <td className='one'>Bessie Cooper</td>
@@ -238,7 +238,7 @@ const SecondSection = () => {
               <td>
                 <input type='checkbox' />
               </td>
-              <td>
+              <td className='color'>
                 <IoIosArrowDropdown />
               </td>
               <td className='one'>Annette Black</td>
@@ -269,7 +269,7 @@ const SecondSection = () => {
               <td>
                 <input type='checkbox' />
               </td>
-              <td>
+              <td className='color'>
                 <IoIosArrowDropdown />
               </td>
               <td className='one'>Jenny Wilson</td>
@@ -300,7 +300,7 @@ const SecondSection = () => {
               <td>
                 <input type='checkbox' />
               </td>
-              <td>
+              <td className='color'>
                 <IoIosArrowDropdown />
               </td>
               <td className='one'>Darlene Robertson</td>
@@ -331,7 +331,7 @@ const SecondSection = () => {
               <td>
                 <input type='checkbox' />
               </td>
-              <td>
+              <td className='color'>
                 <IoIosArrowDropdown />
               </td>
               <td className='one'>Ralph Edwards</td>

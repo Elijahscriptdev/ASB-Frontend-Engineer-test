@@ -5,10 +5,10 @@
   font-family: Google, "Sans";
   background: #ffffff;
   box-shadow: inset 0px -1px 0px rgba(220, 225, 231, 0.572143);
-  padding: 5px 35px;
-  height: 52px;
+  height: 50px;
   justify-content: center;
   align-items: center;
+  padding: 0 35px;
 }
 
 .nav-logo {
@@ -31,6 +31,7 @@
   font-size: 14px;
   line-height: 22px;
   color: #000000;
+  margin-top: 3px;
 }
 
 .nav-links {
@@ -38,6 +39,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 0;
 }
 
 .nav-links-container ul {
@@ -47,10 +49,59 @@
 }
 
 .nav-links-container ul li {
-  margin: 0 18px;
+  margin: 0 5px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 22px;
   color: #778699;
+  padding: 15px;
+}
+
+.nav-links-container ul li img {
+  margin: 0 7px;
+}
+
+.nav-links-container .special-icon {
+  background: #deefff;
+  border-bottom: 4px solid #006fd6;
+}
+
+.search-field .search {
+  position: absolute;
+  top: 15px;
+  right: 375px;
+}
+
+.search-field input {
+  background: #ffffff;
+  border: 1px solid #dce1e7;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 4px 19px;
+}
+
+.nav-end {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-end .person {
+  background: #d8d8d8;
+  border-radius: 50%;
+  padding: 3px 6px;
+  height: 25px;
+  width: 25px;
+}
+
+.nav-end .arrow {
+  margin-top: 5px;
+}
+
+.bell-img {
+  margin-top: 5px !important;
+}
+
+.bell-img img {
+  width: 15px;
 }

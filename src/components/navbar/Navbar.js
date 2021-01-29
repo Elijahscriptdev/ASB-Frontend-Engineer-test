@@ -1,7 +1,7 @@
 import React from "react";
 import { BsFillPersonFill } from "react-icons/bs";
 import { HiSearch } from "react-icons/hi";
-import { RiArrowDropDownLine } from 'react-icons/ri'
+import { RiArrowDropDownLine } from "react-icons/ri";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -35,7 +35,7 @@ const Navbar = () => {
               />{" "}
               Entries
             </li>
-            <li>
+            <li className='special-icon'>
               <img
                 src='https://res.cloudinary.com/elijjaaahhhh/image/upload/v1611867297/Opportunitiy_k9cck2.png'
                 alt='division'
@@ -46,23 +46,25 @@ const Navbar = () => {
         </div>
         <div className='nav-links-container'>
           <ul>
-            <li>
-              <HiSearch />
+            <li className='search-field'>
+              <div className='search'>
+                <HiSearch />
+              </div>
               <input type='text' />
             </li>
-            <li>
+            <li className='bell-img'>
               <img
                 src='https://res.cloudinary.com/elijjaaahhhh/image/upload/v1611867642/Shape_ihvxu9.png'
                 alt='notification'
               />
             </li>
-            <li>
-              {/* <img
-                src='https://res.cloudinary.com/elijjaaahhhh/image/upload/v1611867661/Shape_yezqow.png'
-                alt='Account'
-              /> */}
-              <BsFillPersonFill />
-              <RiArrowDropDownLine />
+            <li className='nav-end'>
+              <div className='person'>
+                <BsFillPersonFill />
+              </div>
+              <div className='arrow'>
+                <RiArrowDropDownLine />
+              </div>
             </li>
           </ul>
         </div>
