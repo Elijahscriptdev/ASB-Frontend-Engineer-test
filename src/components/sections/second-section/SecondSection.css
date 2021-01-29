@@ -179,3 +179,45 @@ th {
   line-height: 18px;
   color: #f4b400;
 }
+
+.low-risk,
+.mid-risk,
+.high-risk {
+  position: relative;
+}
+
+.low-risk .icon,
+.mid-risk .icon,
+.high-risk .icon {
+  position: absolute;
+  left: 10px;
+  font-size: 16px;
+}
+
+.text {
+  margin-left: 20px;
+}
+
+.low-risk {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  align-items: center;
+  color: #3ab65c;
+}
+
+.mid-risk {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  align-items: center;
+  color: #3c3ab6;
+}
+
+.high-risk {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  align-items: center;
+  color: #b63a3a;
+}

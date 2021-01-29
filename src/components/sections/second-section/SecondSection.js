@@ -2,6 +2,9 @@ import React from "react";
 import "./SecondSection.css";
 import { IoIosArrowDropdown } from "react-icons/io";
 import { BiDotsVerticalRounded } from "react-icons/bi";
+import { RiArrowRightDownLine } from "react-icons/ri";
+import { RiArrowRightLine } from "react-icons/ri";
+import { RiArrowUpLine } from "react-icons/ri";
 
 const SecondSection = () => {
   return (
@@ -128,7 +131,12 @@ const SecondSection = () => {
                 </p>
                 <p className='light'>Homogenous</p>
               </td>
-              <td>Smith</td>
+              <td className='low-risk'>
+                <span className='icon'>
+                  <RiArrowRightDownLine />
+                </span>
+                <span className='text'>Low Risk</span>
+              </td>
               <td>
                 <BiDotsVerticalRounded />
               </td>
@@ -154,7 +162,12 @@ const SecondSection = () => {
                 </p>
                 <p className='light'>Homogenous</p>
               </td>
-              <td>Jackson</td>
+              <td className='mid-risk'>
+                <span className='icon'>
+                  <RiArrowRightLine />
+                </span>
+                <span className='text'>Mid Risk</span>
+              </td>
               <td>
                 <BiDotsVerticalRounded />
               </td>
@@ -180,7 +193,12 @@ const SecondSection = () => {
                 </p>
                 <p className='light'>Homogenous</p>
               </td>
-              <td>Doe</td>
+              <td className='mid-risk'>
+                <span className='icon'>
+                  <RiArrowRightLine />
+                </span>
+                <span className='text'>Mid Risk</span>
+              </td>
               <td>
                 <BiDotsVerticalRounded />
               </td>
@@ -206,7 +224,12 @@ const SecondSection = () => {
                 </p>
                 <p className='light'>Homogenous</p>
               </td>
-              <td>Doe</td>
+              <td className='high-risk'>
+                <span className='icon'>
+                  <RiArrowUpLine />
+                </span>
+                <span className='text'>High Risk</span>
+              </td>
               <td>
                 <BiDotsVerticalRounded />
               </td>
@@ -232,7 +255,12 @@ const SecondSection = () => {
                 </p>
                 <p className='light'>Homogenous</p>
               </td>
-              <td>Doe</td>
+              <td className='low-risk'>
+                <span className='icon'>
+                  <RiArrowRightDownLine />
+                </span>
+                <span className='text'>Low Risk</span>
+              </td>
               <td>
                 <BiDotsVerticalRounded />
               </td>
@@ -258,7 +286,12 @@ const SecondSection = () => {
                 </p>
                 <p className='light'>Homogenous</p>
               </td>
-              <td>Doe</td>
+              <td className='high-risk'>
+                <span className='icon'>
+                  <RiArrowUpLine />
+                </span>
+                <span className='text'>High Risk</span>
+              </td>
               <td>
                 <BiDotsVerticalRounded />
               </td>
@@ -284,7 +317,12 @@ const SecondSection = () => {
                 </p>
                 <p className='light'>Homogenous</p>
               </td>
-              <td>Doe</td>
+              <td className='mid-risk'>
+                <span className='icon'>
+                  <RiArrowRightLine />
+                </span>
+                <span className='text'>Mid Risk</span>
+              </td>
               <td>
                 <BiDotsVerticalRounded />
               </td>
@@ -310,7 +348,12 @@ const SecondSection = () => {
                 </p>
                 <p className='light'>Homogenous</p>
               </td>
-              <td>Doe</td>
+              <td className='low-risk'>
+                <span className='icon'>
+                  <RiArrowRightDownLine />
+                </span>
+                <span className='text'>Low Risk</span>
+              </td>
               <td>
                 <BiDotsVerticalRounded />
               </td>
