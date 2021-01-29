@@ -1,14 +1,120 @@
 .second-section-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 4.3fr;
+  padding: 0 22px;
+  grid-column-gap: 25px;
+  margin: 25px 0px;
 }
 
-.second-section-container .summary {
-  max-width: 258px;
+/* .second-section-container .summary {
+} */
+
+.second-section-container .summary-card {
+  max-width: 100%;
   height: 235px;
-  left: 20px;
-  top: 259px;
   background: #ffffff;
   box-shadow: 0px 4px 30px rgba(192, 192, 192, 0.25);
   border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+}
+
+.second-section-container .summary-card {
+  max-width: 100%;
+  height: 235px;
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(192, 192, 192, 0.25);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  justify-content: center;
+}
+
+.second-section-container .information {
+  max-width: 100%;
+  height: 525px;
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(192, 192, 192, 0.25);
+  border-radius: 6px;
+}
+
+.img-container {
+  width: 31px;
+  height: 31px;
+  background: #00a2d6;
+  border-radius: 6.32653px;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-container img {
+  align-self: center;
+  margin: 5px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  margin: 6px 0;
+  align-items: center;
+}
+
+.header h6 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 140%;
+  color: #0f1a4f;
+  margin-left: 10px;
+}
+
+.second-section-container .other-info {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  justify-content: center;
+}
+
+.vertical_dotted_line {
+  border-left: 1px dashed #c4c4c4;
+  height: 80px;
+  position: absolute;
+  top: 21px;
+  left: 6px;
+}
+
+.other-info-items {
+  margin: 13px 0;
+  position: relative;
+}
+
+.other-info-item {
+  display: flex;
+  flex-direction: row;
+  margin: 5px 0;
+}
+
+.other-info-item span {
+  font-size: 2rem;
+  margin-top: -10px;
+  margin-right: 7px;
+}
+
+.other-info-items .time {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 140%;
+  color: #a1aace;
+  margin-left: 19px;
+}
+
+.other-info-item p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 140%;
+  color: #747474;
 }
