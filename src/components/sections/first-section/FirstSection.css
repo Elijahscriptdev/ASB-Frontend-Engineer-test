@@ -1,0 +1,67 @@
+.first-section-container {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #778699;
+  align-items: center;
+  justify-content: center;
+  padding: 0 22px;
+}
+
+.first-section-container .links {
+  align-self: center;
+  margin: 20px 25px;
+}
+
+.first-section-container span {
+  color: #0a5685;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+}
+
+.card-container .card {
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(192, 192, 192, 0.25);
+  border-radius: 6px;
+  max-width: 258;
+  height: 129px;
+  padding: 30px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-content h6 {
+  font-family: Google Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.44px;
+  color: #19191d;
+}
+
+.card-content p {
+  font-family: Google Sans;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 16px;
+  line-height: 36px;
+  color: #9696a0;
+}
+
+.card-content .question {
+  font-size: 20px;
+}

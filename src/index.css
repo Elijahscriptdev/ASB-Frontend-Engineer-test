@@ -8,11 +8,42 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 @font-face {
-  font-family: 'Google';
-  src: local('Google'), url(./fonts/ProductSans-Regular.ttf) format('truetype');
+  font-family: "Google";
+  src: local("Google"), url(./fonts/ProductSans-Regular.ttf) format("truetype");
 }
+
+/* css.global('@font-face', {
+  fontFamily: 'ModernEra',
+  src: `url( ${ModernEraLight} )`,
+  fontWeight: 'lighter',
+  fontStyle: 'normal',
+});
+css.global('@font-face', {
+  fontFamily: 'ModernEra',
+  src: `url( ${ModernEraRegular} )`,
+  fontWeight: 'normal',
+  fontStyle: 'normal',
+});
+css.global('@font-face', {
+  fontFamily: 'ModernEra',
+  src: `url( ${ModernEraMedium} )`,
+  fontWeight: 'bold',
+  fontStyle: 'normal',
+});
+css.global('@font-face', {
+  fontFamily: 'ModernEra',
+  src: `url( ${ModernEraBold} )`,
+  fontWeight: 'bolder',
+  fontStyle: 'normal',
+});
+css.global('html', {
+  color: '#231e21',
+  fontFamily: 'ModernEra, sans-serif',
+  userSelect: 'none',
+  fontWeight: 'bold',
+}); */

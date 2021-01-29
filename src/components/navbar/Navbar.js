@@ -1,5 +1,5 @@
 import React from "react";
-import { BsPerson } from "react-icons/bs";
+import { BsFillPersonFill } from "react-icons/bs";
 import { HiSearch } from "react-icons/hi";
 import { RiArrowDropDownLine } from 'react-icons/ri'
 import "./Navbar.css";
@@ -61,7 +61,7 @@ const Navbar = () => {
                 src='https://res.cloudinary.com/elijjaaahhhh/image/upload/v1611867661/Shape_yezqow.png'
                 alt='Account'
               /> */}
-              <BsPerson />
+              <BsFillPersonFill />
               <RiArrowDropDownLine />
             </li>
           </ul>
